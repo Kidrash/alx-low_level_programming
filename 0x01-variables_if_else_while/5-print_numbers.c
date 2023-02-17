@@ -1,16 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - print if the number is postive, zero, or negative
+ * main - Print the numbers 0-9 on separate lines.
  *
- * Description: using the main function
- * this program prints Programming is positive, zero, or negative
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {
-	int i;
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-	putchar("\n");
-	return (0);
+        int i;
+
+        for (i = 0; i < 10; i++)
+        {
+                printf("%d\n", i);
+        }
+
+        return (0);
 }
