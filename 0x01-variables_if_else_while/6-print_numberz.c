@@ -11,11 +11,15 @@ int main(void)
 
     while (num < 10)
     {
-        putchar("%d", num);
+        putchar(num + '0');
         num++;
     }
 
-    putchar("\n");
+    putchar('\n');
 
     return (0);
 }
+
+
+
+
