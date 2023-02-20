@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print the numbers 0-9 on separate lines.
+ * main - Prints the numbers 0-9 side by side with no space.
  *
  * Return: Always 0.
  */
@@ -11,8 +11,9 @@ int main(void)
 
         for (i = 0; i < 10; i++)
         {
-                printf("%d\n", i);
+                printf("%d", i);
         }
+        printf("\n");
 
         return (0);
 }
